@@ -5,10 +5,12 @@ services:
     region: frankfurt
     plan: free
     rootDir: apps/api
-    buildCommand: npm install
+    buildCommand: npm install && npx prisma generate
     startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 10000
+      - key: DATABASE_URL
+        sync: false
