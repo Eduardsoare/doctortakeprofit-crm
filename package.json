@@ -1,0 +1,9 @@
+{
+  "name": "doctortakeprofit-crm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "dev": "echo 'Run apps separately'"
+  }
+}
